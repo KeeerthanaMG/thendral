@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thendral's Quality Caters</title>
+    <meta name="description"
+        content="Thendral's Quality Caters offers expert catering services for all occasions. Trust us to make your event memorable and flawless.">
+    <meta name="keywords"
+        content="catering services, wedding caterer, corporate events catering, [Chennai] caterer, Thendral's Quality Caters">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <link rel="canonical" href="https://yourwebsite.com">
+    <meta name="generator" content="Developed by VBC Developers">
+    <meta property="og:title" content="Thendral's Quality Caters - Best Catering Services">
+    <meta property="og:description"
+        content="Thendral's Quality Caters offers expert catering services for all occasions. Trust us to make your event memorable and flawless.">
+    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+        }
+
+        .appointment-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        .btn-primary {
+            background-color: #ffc107;
+            border-color: #ffc107;
+        }
+
+        .btn-primary:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+
+        .form-control:focus {
+            border-color: #ffc107;
+            box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+        }
+
+        .dropdown-menu {
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .dropdown-item:hover {
+            background-color: #ffc107;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body style="font-family: David Libre;">
+    <div>
+        <header>
+            <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Thendral's Quality Caters Logo" class="logo">
+                </a>
+                <div class="intro">
+                    <img src="images/Ellipse 3.png" alt="" class="ellipse3">
+                    <img src="images/Ellipse 4.png" alt="" class="ellipse4">
+                    <img src="images/Ellipse 5.png" alt="" class="ellipse5">
+                </div>
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="ml-auto d-flex align-items-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item px-4"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item px-4"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item px-4"><a class="nav-link" href="events.html">Events</a></li>
+                        <li class="nav-item px-4"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="book.html" class="btn btn-warning ml-3"
+                        style="color: white; font-weight: bolder; border-radius: 15px 0 15px; height: auto;">Book
+                        Appointment</a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="appointment-form">
+            <h3 class="text-center">Book Appointment</h3>
+            <form id="appointmentForm">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="mobileNumber">Mobile Number</label>
+                        <input type="text" class="form-control" id="mobileNumber" placeholder="Enter Your Mobile Number"
+                            required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="email">Email ID</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email ID" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Enter Your City" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="eventDate">Event Date</label>
+                        <input type="date" class="form-control" id="eventDate" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="eventType">Event Type</label>
+                        <select id="eventType" class="form-control" required>
+                            <option value="" disabled selected>Select Event Type</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="engagement">Engagement</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="session">Session</label>
+                        <select id="session" class="form-control" required>
+                            <option value="" disabled selected>Select Session</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="tea-snacks">Tea Snacks</option>
+                            <option value="dinner">Dinner</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="sessionHeadCounts">Session Head Counts</label>
+                        <input type="number" class="form-control" id="sessionHeadCounts" placeholder="Enter Head Counts"
+                            required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="menuRequired">Menu Required</label>
+                        <select id="menuRequired" class="form-control" required>
+                            <option value="" disabled selected>Enter Your Menu</option>
+                            <option value="mini-tiffin">Mini Tiffin</option>
+                            <option value="ordinary-tiffin">Ordinary Tiffin</option>
+                            <option value="special-tiffin">Special Tiffin</option>
+                            <option value="vip-tiffin">VIP Tiffin</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6" id="subMenuContainer" style="display: none;">
+                        <label for="subMenu">Select Items</label>
+                        <select id="subMenu" class="form-control" multiple>
+                            <option value="dosa">Dosa</option>
+                            <option value="pongal">Pongal</option>
+                            <option value="poori">Poori</option>
+                            <option value="idli">Idli</option>
+                            <option value="idiyappam">Idiyappam</option>
+                            <option value="vadai">Vadai</option>
+                            <option value="sambar">Sambar</option>
+                            <option value="chatni">Chatni</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+
+        <section id="contact">
+            <footer class="footer text-center text-lg-start">
+                <img src="images/10.png" class="pan1-image">
+                <div class="container p-4">
+
+                    <div class="container p-4">
+
+                        <div class="row">
+                            <!-- Logo and description -->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-left">
+                                <img src="images/logo.png" alt="Thendral's Quality Caters Logo" class="img-fluid mb-3"
+                                    style="width: 100px; height:auto;">
+                                <p>Thendral's Quality Caters, you can be confident that your special occasion is
+                                    in
+                                    the
+                                    hands of experts committed to making it memorable and flawless.</p>
+                            </div>
+
+                            <!-- Navigation -->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase">Navigation</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="menu.html" class="text-dark">Menu</a></li>
+                                    <li><a href="index.html" class="text-dark">About us</a></li>
+                                    <li><a href="events.html" class="text-dark">Events</a></li>
+                                    <li><a href="index.html" class="text-dark">Contact us</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Events -->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase">Events</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="events.html" class="text-dark">Marriage</a></li>
+                                    <li><a href="events.html" class="text-dark">Birthday</a></li>
+                                    <li><a href="events.html" class="text-dark">Engagement</a></li>
+                                    <li><a href="events.html" class="text-dark">Corporate Buffet</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Follow us -->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase">Follow us</h5>
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item"><a href="#!" class="text-dark"><img
+                                                src="images/Icon.png" alt="Facebook"></a></li>
+                                    <li class="list-inline-item"><a href="#!" class="text-dark"><img
+                                                src="images/Insta.png" alt="Instagram"></a></li>
+                                    <li class="list-inline-item"><a href="#!" class="text-dark"><img
+                                                src="images/Tweet icon.png" alt="Twitter"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="text-align: left;">
+                                <h5 class="text-uppercase">Opening Hours</h5>
+                                <p>Monday - Friday<br>10:00 am to 05:00 pm</p>
+                            </div>
+                        </div>
+
+                        <div class="text-center p-3">
+                            <p>© 2024 Caterings. All Rights Reserved. Developed By <a href="https://vbc.geekspool.com/"
+                                    class="text-dark">VBC Developers</a></p>
+                        </div>
+
+            </footer>
+        </section>
+
+    </div>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("YOUR_USER_ID");
+        })();
+
+        $(document).ready(function () {
+            $('#menuRequired').change(function () {
+                if ($(this).val() == 'mini-tiffin') {
+                    $('#subMenuContainer').show();
+                } else {
+                    $('#subMenuContainer').hide();
+                }
+            });
+
+            $('#appointmentForm').submit(function (event) {
+                event.preventDefault();
+
+                var templateParams = {
+                    name: $('#name').val(),
+                    mobileNumber: $('#mobileNumber').val(),
+                    email: $('#email').val(),
+                    city: $('#city').val(),
+                    eventDate: $('#eventDate').val(),
+                    eventType: $('#eventType').val(),
+                    session: $('#session').val(),
+                    sessionHeadCounts: $('#sessionHeadCounts').val(),
+                    menuRequired: $('#menuRequired').val(),
+                    subMenu: $('#subMenu').val().join(', ')
+                };
+
+                emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+                    .then(function (response) {
+                        alert('SUCCESS!', response.status, response.text);
+                    }, function (error) {
+                        alert('FAILED...', error);
+                    });
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,671 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'David Libre', serif;
+    box-sizing: border-box;
+    background-color: white;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar-brand .logo {
+    width: 152px;
+    height: 150px;
+}
+
+.ellipse3,
+.ellipse4,
+.ellipse5 {
+    position: absolute;
+    z-index: -1;
+}
+
+.ellipse3 {
+    width: 960px;
+    height: 900px;
+    left: -520px;
+    top: -400px;
+}
+
+.ellipse4 {
+    width: 960px;
+    height: 960px;
+    left: -600px;
+    top: -405.84px;
+    transform: rotate(12.41deg);
+}
+
+.ellipse5 {
+    width: 960px;
+    height: 960px;
+    left: -550px;
+    top: -500px;
+}
+
+.hero {
+    min-height: calc(100vh - 60px);
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    margin: 0 10%;
+}
+
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #FFC814;
+    margin-top: 3px;
+}
+
+.about-group2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 5%;
+    left: 30%;
+    z-index: 0;
+}
+
+.about-us-section {
+    position: relative;
+    padding-top: 5%;
+}
+
+.about-us-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+
+.about-us-section ul {
+    padding-left: 0;
+}
+
+.about-us-section ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1 rem;
+    margin-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-us-section ul li img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.about-us-section img.img-fluid {
+    border-radius: 100px;
+    width: 50;
+    padding-top: 5%;
+}
+
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.image-container .leaf {
+    width: 65%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    padding-top: 25%;
+}
+
+.yellow-ellipse {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    padding-bottom: 25%;
+    left: 20%;
+    z-index: 1;
+}
+
+.logo-inside-ellipse {
+    position: absolute;
+    width: 28%;
+    height: auto;
+    left: 35%;
+    z-index: 2;
+}
+
+.group1 {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 5%;
+    left: -2%;
+    z-index: 0;
+}
+
+.group {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: -2%;
+    right: -5%;
+    z-index: 0;
+}
+
+.group2 {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    bottom: -2%;
+    right: 5%;
+    z-index: 0;
+}
+
+.full-bg {
+    background-color: #F3F4F4;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.Chef-group {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: -5%;
+    z-index: 0;
+}
+
+.Chef-Home {
+    position: absolute;
+    width: 58%;
+    height: auto;
+    left: 15%;
+    z-index: 2;
+    top: -25px;
+}
+
+.yellow-ellipse-ab {
+    position: absolute;
+    width: 58%;
+    height: auto;
+    left: 15%;
+    padding-top: 19%;
+    z-index: 1;
+}
+
+.Chef-Below {
+    width: 60%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    padding-top: 60%;
+    padding-left: 20%;
+}
+
+.leafdes {
+    width: 70%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    padding-left: 45%;
+}
+
+.whygarlic {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: -5%;
+    z-index: 0;
+
+}
+
+.leftgarlic {
+    position: absolute;
+    top: 60%;
+    left: -33%;
+    z-index: 0;
+    width: 10%;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+.content {
+    position: relative;
+}
+
+.pan-image {
+    position: absolute;
+    left: 0;
+    top: -50%;
+    z-index: 0;
+    width: 40%;
+    height: auto;
+    left: -15%;
+}
+
+.pan1-image {
+    position: absolute;
+    padding-top: 10%;
+    z-index: 0;
+    width: 40%;
+    height: auto;
+}
+
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.carousel-item {
+    min-width: 80%;
+    /* padding-left: 5%; */
+    /* padding-right: 10%; */
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: rotateY(45deg) scale(0.5);
+    opacity: 0.5;
+
+}
+
+.carousel-item.active {
+    transform: rotateY(0) scale(1);
+    opacity: 1;
+}
+
+.carousel-item img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: gold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.testimonial h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.testimonial span {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dots {
+    display: flex;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+.faq-section {
+    background-color: #f3f4f4;
+    /* Background color of the FAQ section */
+    padding: 50px 0;
+    /* Adjust padding as needed */
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    /* Add pointer cursor for interaction */
+}
+
+.faq-answer {
+    margin-top: 10px;
+}
+
+/* Optional styling for hover effect on questions */
+.faq-question:hover {
+    color: #ff8800;
+    /* Change color on hover */
+}
+
+.faq-container {
+    position: relative;
+    text-align: center;
+}
+
+.faq-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.faq-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-item {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+}
+
+.faq-answer {
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .faq-item {
+        width: 100%;
+    }
+}
+
+
+.footer {
+    background: #ffff;
+    padding: 40px 0;
+}
+
+.footer img {
+    max-width: 90%;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.footer p,
+.footer a {
+    color: #333;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul.list-inline li {
+    margin-right: 10px;
+}
+
+.footer .text-uppercase {
+    text-transform: uppercase;
+}
+
+.footer .text-dark {
+    color: #333 !important;
+}
+
+.footer .list-inline-item img {
+    width: 30px;
+}
+
+.footer .text-center p {
+    margin: 5px 0;
+}
+
+/*menu page*/
+
+.plate {
+    width: 65%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    padding-top: 40%;
+    padding-left: 25%;
+}
+
+.chefmenu {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    left: 20%;
+    top: -20%;
+    z-index: 2;
+
+}
+
+.container-1 {
+    background-color: #ffff;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.menu-item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.container-2 {
+    width: 80%;
+    background-color: #f3f4f4;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.menu-item {
+    text-align: center;
+    border: 5px solid #f3f4f4;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.event-btn {
+    margin-bottom: 10px;
+    display: list-item;
+    margin-right: 60%;
+    margin-left: 2rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    width: 30%;
+}
+
+.siggroup {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    left: 25%;
+    z-index: 0;
+}
+
+.siggroup2 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    right: 25%;
+    z-index: 0;
+}
+
+.sigflower {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    right: 0;
+    padding-top: 95%;
+    z-index: 0;
+}
+
+.piece1 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    padding-top: 45%;
+    right: 45%;
+    z-index: 0;
+}
+
+.whole1 {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    padding-top: 70%;
+    left: 1;
+    z-index: 0;
+}
+
+.pan-image1 {
+    position: absolute;
+    padding-top: 5%;
+    z-index: 0;
+    width: 20%;
+    height: auto;
+    left: 0;
+}
